@@ -1,0 +1,57 @@
+---
+name: today
+description: 오늘 날짜 기준 학습 노트 MD 파일을 생성한다. media 또는 sjpt 폴더를 인자로 받는다.
+argument-hint: <media|sjpt>
+user-invocable: true
+---
+
+# 오늘의 학습 노트 생성
+
+대상 폴더: `$ARGUMENTS`
+
+## 섹션 템플릿
+
+- `media`: `## Reference`, `## Content`
+  - `## Content` 하위에는 항상 `### word`와 `### expression`을 함께 생성한다.
+  - `### word`에만 아래 테이블을 포함한다 (`### expression`에는 테이블 없음):
+    ```markdown
+    | 일본어 | 발음 | 한글 뜻 |
+    | --- | --- | --- |
+    |  |  |  |
+    ```
+- `sjpt`: `## Question`, `## Answer`
+
+## 규칙
+
+1. `$ARGUMENTS`는 반드시 `media` 또는 `sjpt` 중 하나여야 한다. 그 외 값이면 안내 후 중단.
+2. 오늘 날짜를 `YYYY-MM-DD` 형식으로 구한다 (시스템 currentDate 컨텍스트 활용).
+3. 파일 경로: `$ARGUMENTS/YYYY-MM-DD.md`
+4. **파일이 없으면 (최초 생성)**: 날짜 헤딩 + 섹션 템플릿으로 생성한다.
+   - media 예시:
+     ```markdown
+     # YYYY-MM-DD
+
+     ## Reference
+
+     ## Content
+
+     ### word
+
+     | 일본어 | 발음 | 한글 뜻 |
+     | --- | --- | --- |
+     |  |  |  |
+
+     ### expression
+     ```
+   - sjpt 예시:
+     ```markdown
+     # YYYY-MM-DD
+
+     ## Question
+
+     ## Answer
+     ```
+5. **파일이 이미 존재하면**: 파일 끝에 섹션 템플릿만 추가한다 (날짜 헤딩 없이).
+   - media 예시: `## Reference`와 `## Content` (+ `### word`, `### expression` 및 테이블)를 추가
+   - sjpt 예시: `## Question`과 `## Answer`를 추가
+6. 완료 후 경로와 수행한 작업(생성/추가)을 알려준다.
