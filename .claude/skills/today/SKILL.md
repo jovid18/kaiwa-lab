@@ -16,10 +16,10 @@ user-invocable: true
   - `### word`에만 아래 테이블을 포함한다 (`### expression`에는 테이블 없음):
     ```markdown
     | 일본어 | 발음 | 한글 뜻 |
-    | --- | --- | --- |
-    |  |  |  |
+    | ------ | ---- | ------- |
+    |        |      |         |
     ```
-- `sjpt`: `## Question`, `## Answer`
+- `sjpt`: `## Part`, `## Question`, `## Answer`
 
 ## 규칙
 
@@ -28,6 +28,7 @@ user-invocable: true
 3. 파일 경로: `$ARGUMENTS/YYYY-MM-DD.md`
 4. **파일이 없으면 (최초 생성)**: 날짜 헤딩 + 섹션 템플릿으로 생성한다.
    - media 예시:
+
      ```markdown
      # YYYY-MM-DD
 
@@ -38,20 +39,25 @@ user-invocable: true
      ### word
 
      | 일본어 | 발음 | 한글 뜻 |
-     | --- | --- | --- |
-     |  |  |  |
+     | ------ | ---- | ------- |
+     |        |      |         |
 
      ### expression
      ```
+
    - sjpt 예시:
+
      ```markdown
      # YYYY-MM-DD
+
+     ## Part
 
      ## Question
 
      ## Answer
      ```
+
 5. **파일이 이미 존재하면**: 파일 끝에 섹션 템플릿만 추가한다 (날짜 헤딩 없이).
    - media 예시: `## Reference`와 `## Content` (+ `### word`, `### expression` 및 테이블)를 추가
-   - sjpt 예시: `## Question`과 `## Answer`를 추가
+   - sjpt 예시: `## Part`, `## Question`과 `## Answer`를 추가
 6. 완료 후 경로와 수행한 작업(생성/추가)을 알려준다.
