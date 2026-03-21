@@ -18,6 +18,7 @@ A personal repository for studying Japanese conversation.
 - [2026-03-19](media/2026-03-19.md)
 - [2026-03-20](media/2026-03-20.md)
 - [2026-03-21](media/2026-03-21.md)
+- [2026-03-22](media/2026-03-22.md)
 
 ## sjpt
 
