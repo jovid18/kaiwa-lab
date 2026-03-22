@@ -52,3 +52,4 @@ A personal repository for studying Japanese conversation.
 - [2026-03-19](sudden/2026-03-19.md)
 - [2026-03-20](sudden/2026-03-20.md)
 - [2026-03-21](sudden/2026-03-21.md)
+- [2026-03-22](sudden/2026-03-22.md)
