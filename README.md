@@ -2,6 +2,13 @@
 
 A personal repository for studying Japanese conversation.
 
+## weakness
+
+- [현황 대시보드](weakness/index.md)
+- [문법 약점](weakness/grammar.md)
+- [어휘 약점](weakness/vocabulary.md)
+- [표현 약점](weakness/expression.md)
+
 ## media
 
 - [2026-03-08](media/2026-03-08.md)
