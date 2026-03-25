@@ -1,0 +1,65 @@
+{
+  "patterns": {
+    "grammar:조사 누락/오용": {
+      "reviews": [{ "date": "2026-03-25", "pass": false, "questions": 5, "correct": 2 }],
+      "next_review": "2026-03-26",
+      "graduated": false,
+      "sentences": {
+        "03-24:友達ように": { "status": "pass", "date": "2026-03-25" },
+        "03-22:大規模のスポーツ": { "status": "fail", "date": "2026-03-25" },
+        "03-25:8時50分に": { "status": "pass", "date": "2026-03-25" },
+        "03-19:図書館に訪れて": { "status": "fail", "date": "2026-03-25" },
+        "03-20:お腹空いて": { "status": "fail", "date": "2026-03-25" }
+      }
+    },
+    "vocabulary:유사어 혼동": {
+      "reviews": [{ "date": "2026-03-25", "pass": true, "questions": 5, "correct": 5 }],
+      "next_review": "2026-03-28",
+      "graduated": false,
+      "sentences": {
+        "03-24:結局": { "status": "pass", "date": "2026-03-25" },
+        "03-23:ネックレス": { "status": "pass", "date": "2026-03-25" },
+        "03-21:洗濯": { "status": "pass", "date": "2026-03-25" },
+        "03-24:詰まれば": { "status": "pass", "date": "2026-03-25" },
+        "03-25:評判": { "status": "pass", "date": "2026-03-25" }
+      }
+    },
+    "grammar:동사 활용형 오류": {
+      "reviews": [{ "date": "2026-03-25", "pass": false, "questions": 5, "correct": 3 }],
+      "next_review": "2026-03-26",
+      "graduated": false,
+      "sentences": {
+        "03-23:多くじゃなくて": { "status": "fail", "date": "2026-03-25" },
+        "03-17:塗んでいます": { "status": "pass", "date": "2026-03-25" },
+        "03-24:難しですね": { "status": "pass", "date": "2026-03-25" },
+        "03-20:靭帯切た": { "status": "fail", "date": "2026-03-25" },
+        "03-21:上がれない": { "status": "pass", "date": "2026-03-25" }
+      }
+    },
+    "grammar:기타 문법 오류": {
+      "reviews": [{ "date": "2026-03-25", "pass": false, "questions": 5, "correct": 2 }],
+      "next_review": "2026-03-26",
+      "graduated": false,
+      "sentences": {
+        "03-16:忘れないよ": { "status": "fail", "date": "2026-03-25" },
+        "03-25:短命する": { "status": "fail", "date": "2026-03-25" },
+        "03-21:ゲームたち": { "status": "pass", "date": "2026-03-25" },
+        "03-25:良さそうな": { "status": "pass", "date": "2026-03-25" },
+        "03-25:受けたがが": { "status": "fail", "date": "2026-03-25" }
+      }
+    },
+    "vocabulary:카타카나 표기 오류": {
+      "reviews": [{ "date": "2026-03-25", "pass": false, "questions": 5, "correct": 3 }],
+      "next_review": "2026-03-26",
+      "graduated": false,
+      "sentences": {
+        "03-24:アラム": { "status": "pass", "date": "2026-03-25" },
+        "03-23:コミック": { "status": "pass", "date": "2026-03-25" },
+        "03-17:ラッカ": { "status": "pass", "date": "2026-03-25" },
+        "03-19:コウスロ": { "status": "fail", "date": "2026-03-25" },
+        "03-21:メリート": { "status": "fail", "date": "2026-03-25" }
+      }
+    }
+  },
+  "version": 2
+}

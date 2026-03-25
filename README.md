@@ -2,6 +2,10 @@
 
 A personal repository for studying Japanese conversation.
 
+## review
+
+- [복습 진척도](review/progress.md)
+
 ## weakness
 
 - [현황 대시보드](weakness/index.md)
