@@ -14,7 +14,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `weakness/` — 약점 추적 시스템
   - `index.md` — 전체 약점 현황 대시보드 (횟수·상태·최근 발생)
   - `grammar.md`, `vocabulary.md`, `expression.md` — 카테고리별 상세 기록
-- `review/` — 약점 복습 시스템 (`state.json`으로 간격반복 관리, `session.html`로 출제)
+- `review/` — 약점 복습 시스템 (라운드 로빈 방식, `session.html`로 출제)
 
 ## Key Workflows (Slash Commands)
 
@@ -42,6 +42,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - 표현: 경어 수준, 문말/종조사, 문체 불일치, 접속사
 
 **상태 기준:** 🔴 5회+ · 🟡 2~4회 · 🟢 최근 5일 무발생
+
+**복습 시스템 (라운드 로빈):**
+
+- 각 패턴 헤더에 `연속통과`(0~3)와 `다음복습`(날짜 또는 빈 값) 메타데이터 관리
+- 테이블 상위 5개 행을 출제 → 맞히면 맨 아래로, 틀리면 제자리
+- 3회 연속 통과 시 졸업 → `<details>` 섹션으로 이동
+- 새 오류는 테이블 맨 위에 추가 (최우선 복습 대상)
 
 ## Conventions
 
