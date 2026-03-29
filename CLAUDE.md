@@ -14,7 +14,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `weakness/` — 약점 추적 시스템
   - `index.md` — 전체 약점 현황 대시보드 (횟수·상태·최근 발생)
   - `grammar.md`, `vocabulary.md`, `expression.md` — 카테고리별 상세 기록
-- `review/` — 약점 복습 시스템 (라운드 로빈 방식, `session.html`로 출제)
+- `review/` — 약점 복습 시스템 (문장 단위 복습, `session.html`로 출제)
 
 ## Key Workflows (Slash Commands)
 
@@ -27,7 +27,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 | `/word <테이블>`               | 단어 테이블 빈 칸 채워서 오늘 노트에 기록                         |
 | `/analyze <일본어>`            | 문장 한글 뜻 추가 + 활용형 변형 분해                              |
 | `/weakness [유형]`             | 약점 현황 조회 (읽기 전용)                                        |
-| `/review [유형]`               | 약점 패턴별 복습 HTML 생성 → 결과 반영                            |
+| `/review [유형]`               | 약점 문장 단위 복습 HTML 생성 → 결과 반영                         |
 | `/tip <파일> <주제>`           | 학습 팁 정리하여 파일에 추가                                      |
 | `/commit`                      | 날짜 기반 자동 번호 커밋 + README 링크 동기화 + push              |
 
@@ -43,12 +43,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **상태 기준:** 🔴 5회+ · 🟡 2~4회 · 🟢 최근 5일 무발생
 
-**복습 시스템 (라운드 로빈):**
+**복습 시스템 (문장 단위):**
 
-- 각 패턴 헤더에 `연속통과`(0~3)와 `다음복습`(날짜 또는 빈 값) 메타데이터 관리
-- 테이블 상위 5개 행을 출제 → 맞히면 맨 아래로, 틀리면 제자리
-- 3회 연속 통과 시 졸업 → `<details>` 섹션으로 이동
-- 새 오류는 테이블 맨 위에 추가 (최우선 복습 대상)
+- 각 문장에 `복습` 컬럼(0~2)으로 통과 횟수 관리
+- 테이블 상위 5개 행을 출제 → 정답/오답 관계없이 맨 아래로 이동
+- 맞으면 복습 +1, 틀리면 복습 0으로 리셋
+- 복습 3회 달성 시 해당 문장 졸업 → `<details>` 섹션으로 이동
+- 새 오류는 테이블 맨 아래에 추가 (복습: 0)
 
 ## Conventions
 
