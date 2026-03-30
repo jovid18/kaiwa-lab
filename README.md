@@ -63,6 +63,7 @@ A personal repository for studying Japanese conversation.
 - [2026-03-27](sjpt/2026-03-27.md)
 - [2026-03-28](sjpt/2026-03-28.md)
 - [2026-03-29](sjpt/2026-03-29.md)
+- [2026-03-30](sjpt/2026-03-30.md)
 
 ## sudden
 
