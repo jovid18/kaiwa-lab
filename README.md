@@ -40,6 +40,7 @@ A personal repository for studying Japanese conversation.
 - [2026-03-30](media/2026-03-30.md)
 - [2026-03-31](media/2026-03-31.md)
 - [2026-04-01](media/2026-04-01.md)
+- [2026-04-02](media/2026-04-02.md)
 
 ## sjpt
 
