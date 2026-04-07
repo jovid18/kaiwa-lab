@@ -34,4 +34,4 @@ A personal repository for studying Japanese conversation.
 | 04-04 | [✓](sjpt/2026-04-04.md) | [✓](sudden/2026-04-04.md) |                          |
 | 04-05 | [✓](sjpt/2026-04-05.md) | [✓](sudden/2026-04-05.md) |                          |
 | 04-06 | [✓](sjpt/2026-04-06.md) | [✓](sudden/2026-04-06.md) |                          |
-| 04-07 |                         | [✓](sudden/2026-04-07.md) |                          |
+| 04-07 | [✓](sjpt/2026-04-07.md) | [✓](sudden/2026-04-07.md) |                          |
