@@ -36,6 +36,6 @@ A personal repository for studying Japanese conversation.
 | 04-06 | [✓](sjpt/2026-04-06.md) | [✓](sudden/2026-04-06.md) |                          |
 | 04-07 | [✓](sjpt/2026-04-07.md) | [✓](sudden/2026-04-07.md) |                          |
 | 04-08 | [✓](sjpt/2026-04-08.md) | [✓](sudden/2026-04-08.md) |                          |
-| 04-09 |                         | [✓](sudden/2026-04-09.md) |                          |
-| 04-10 |                         | [✓](sudden/2026-04-10.md) |                          |
-| 04-11 |                         | [✓](sudden/2026-04-11.md) |                          |
+| 04-09 | [✓](sjpt/2026-04-09.md) | [✓](sudden/2026-04-09.md) |                          |
+| 04-10 | [✓](sjpt/2026-04-10.md) | [✓](sudden/2026-04-10.md) |                          |
+| 04-11 | [✓](sjpt/2026-04-11.md) | [✓](sudden/2026-04-11.md) |                          |
