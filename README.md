@@ -39,3 +39,4 @@ A personal repository for studying Japanese conversation.
 | 04-09 | [✓](sjpt/2026-04-09.md) | [✓](sudden/2026-04-09.md) |                          |
 | 04-10 | [✓](sjpt/2026-04-10.md) | [✓](sudden/2026-04-10.md) |                          |
 | 04-11 | [✓](sjpt/2026-04-11.md) | [✓](sudden/2026-04-11.md) |                          |
+| 04-12 |                          |                           | [✓](media/2026-04-12.md) |
