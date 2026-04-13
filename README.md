@@ -40,3 +40,4 @@ A personal repository for studying Japanese conversation.
 | 04-10 | [✓](sjpt/2026-04-10.md) | [✓](sudden/2026-04-10.md) |                          |
 | 04-11 | [✓](sjpt/2026-04-11.md) | [✓](sudden/2026-04-11.md) |                          |
 | 04-12 | [✓](sjpt/2026-04-12.md) | [✓](sudden/2026-04-12.md) | [✓](media/2026-04-12.md) |
+| 04-13 | [✓](sjpt/2026-04-13.md) | [✓](sudden/2026-04-13.md) |                          |
