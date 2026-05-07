@@ -37,7 +37,7 @@ user-invocable: true
 ## 규칙
 
 1. `$ARGUMENTS`는 반드시 `media`, `sjpt` 또는 `sudden` 중 하나여야 한다. 그 외 값이면 안내 후 중단.
-2. 오늘 날짜를 `YYYY-MM-DD` 형식으로 구한다 (시스템 currentDate 컨텍스트 활용).
+2. 오늘 날짜를 `YYYY-MM-DD` 형식으로 구한다. Bash로 `date -v-4H '+%Y-%m-%d'` 명령을 실행하여 KST 새벽 4시 기준 학습일을 구한다 (자정~03:59는 전날 날짜 사용).
 3. 파일 경로: `$ARGUMENTS/YYYY-MM-DD.md`
 4. **파일이 없으면 (최초 생성)**: 날짜 헤딩 + 섹션 템플릿으로 생성한다.
    - media 예시:
