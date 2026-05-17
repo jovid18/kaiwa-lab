@@ -66,3 +66,4 @@ A personal repository for studying Japanese conversation.
 | 05-14 | [✓](sjpt/2026-05-14.md) | [✓](sudden/2026-05-14.md) | [✓](media/2026-05-14.md) |
 | 05-15 | [✓](sjpt/2026-05-15.md) |                           | [✓](media/2026-05-15.md) |
 | 05-16 |                         | [✓](sudden/2026-05-16.md) | [✓](media/2026-05-16.md) |
+| 05-17 |                         |                           | [✓](media/2026-05-17.md) |
