@@ -52,7 +52,7 @@ A personal repository for studying Japanese conversation.
 | 04-22 | [✓](sjpt/2026-04-22.md) | [✓](sudden/2026-04-22.md) |                          |
 | 04-23 | [✓](sjpt/2026-04-23.md) | [✓](sudden/2026-04-23.md) |                          |
 | 04-24 |                         | [✓](sudden/2026-04-24.md) |                          |
-| 04-25 | [✓](sjpt/2026-04-25.md) | [✓](sudden/2026-04-25.md) |                          |
+| 04-25 |                         | [✓](sudden/2026-04-25.md) |                          |
 | 04-26 |                         | [✓](sudden/2026-04-26.md) |                          |
 | 04-28 |                         | [✓](sudden/2026-04-28.md) |                          |
 | 04-29 | [✓](sjpt/2026-04-29.md) |                           |                          |
@@ -70,3 +70,4 @@ A personal repository for studying Japanese conversation.
 | 05-18 |                         | [✓](sudden/2026-05-18.md) |                          |
 | 05-20 |                         | [✓](sudden/2026-05-20.md) | [✓](media/2026-05-20.md) |
 | 05-21 |                         | [✓](sudden/2026-05-21.md) | [✓](media/2026-05-21.md) |
+| 07-11 |                         |                           | [✓](media/2026-07-11.md) |
