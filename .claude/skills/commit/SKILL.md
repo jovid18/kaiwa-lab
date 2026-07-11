@@ -15,9 +15,11 @@ user-invocable: true
    ```
    | 날짜 | sjpt | sudden | media | diary |
    |---|---|---|---|---|
-   | MM-DD | [✓](sjpt/YYYY-MM-DD.md) | [✓](sudden/YYYY-MM-DD.md) | [✓](media/YYYY-MM-DD.md) | [✓](diary/YYYY-MM-DD.md) |
+   | MM-DD | [✓](sjpt/YYYY-MM-DD.md) | [✓](sudden/YYYY-MM-DD.md) | [✓](media/YYYY-MM-DD.md) | [✓](https://note.com/jovid_18/n/<note_key>) |
    ```
 3. 각 행은 하나의 날짜. 열은 폴더별로 해당 파일이 있으면 `[✓](폴더/YYYY-MM-DD.md)` 링크, 없으면 빈 칸.
+   - **diary 열은 예외**: 로컬 md 대신 note.com 블로그 링크를 건다. 파일 frontmatter의 `note_key`로
+     `https://note.com/jovid_18/n/<note_key>` URL을 구성한다. `note_key`가 없으면 로컬 md 링크로 폴백.
 4. 날짜순 정렬. 새 날짜는 해당 위치에 행을 삽입하고, 기존 행에 새 파일이 추가된 경우 해당 셀만 채운다.
 5. 변경이 있으면 `git add README.md`로 스테이징한다.
 
