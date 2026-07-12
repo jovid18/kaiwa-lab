@@ -80,3 +80,4 @@ A personal repository for studying Japanese conversation.
 | 07-09 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n64877966f6eb) |
 | 07-10 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n3ef68537aea1) |
 | 07-11 |                         |                           | [✓](media/2026-07-11.md) | [✓](https://note.com/jovid_18/n/nb0ab0471a26c) |
+| 07-12 |                         | [✓](sudden/2026-07-12.md) |                          | [✓](https://note.com/jovid_18/n/n2d6b5ee93b82) |
