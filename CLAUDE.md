@@ -4,7 +4,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-일본어 회화 학습용 개인 리포지토리. 코드 없이 마크다운 파일과 Claude Code 스킬로 운영된다.
+일본어 회화 학습용 개인 리포지토리. 마크다운 파일과 Claude Code 스킬로 운영된다.
+유일한 코드는 note.com pull용 내장 스크립트(`.claude/skills/note-pull/scripts/`, 의존성 없는 순수 Node)뿐이다.
 
 ## Repository Structure
 
@@ -33,7 +34,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 일기는 note.com이 원본이고 이 리포는 **pull 전용 아카이브**다 (note로 되올리지 않는다):
 
 1. 사용자가 note.com에 일기 작성 — **제목을 `YYYY-MM-DD`로** (파일명 날짜의 단일 진실원)
-2. `/note-pull <URL>` — `../note_mcp`의 pull 스크립트로 `diary/YYYY-MM-DD.md` 생성
+2. `/note-pull <URL>` — 리포 내장 pull 스크립트로 `diary/YYYY-MM-DD.md` 생성
 3. `/note-proofread` — 교정 제안을 git diff로 제시
 4. 사용자가 note 웹 에디터에서 직접 수정
 5. `/note-pull <URL>` 재실행(`--force`) — 최종본으로 덮어쓰기
