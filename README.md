@@ -93,3 +93,4 @@ A personal repository for studying Japanese conversation.
 | 07-22 |                         |                           |                          | [✓](https://note.com/jovid_18/n/nabde3653bb6e) |
 | 07-23 |                         |                           | [✓](media/2026-07-23.md) | [✓](https://note.com/jovid_18/n/nba44db1e007a) |
 | 07-24 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n98ade8ff4862) |
+| 07-25 |                         |                           | [✓](media/2026-07-25.md) |                                                |
