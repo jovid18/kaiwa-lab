@@ -96,4 +96,5 @@ A personal repository for studying Japanese conversation.
 | 07-25 |                         |                           | [✓](media/2026-07-25.md) | [✓](https://note.com/jovid_18/n/n54e0e0381645) |
 | 07-26 |                         |                           |                          | [✓](https://note.com/jovid_18/n/ndb2d705d04c4) |
 | 07-27 |                         |                           |                          | [✓](https://note.com/jovid_18/n/na8c17efe6f79) |
-| 07-29 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n349f17ab25a9) |
+| 07-28 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n349f17ab25a9) |
+| 07-29 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n1f68dfecd01b) |
