@@ -97,4 +97,7 @@ A personal repository for studying Japanese conversation.
 | 07-26 |                         |                           |                          | [✓](https://note.com/jovid_18/n/ndb2d705d04c4) |
 | 07-27 |                         |                           |                          | [✓](https://note.com/jovid_18/n/na8c17efe6f79) |
 | 07-28 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n349f17ab25a9) |
-| 07-29 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n1f68dfecd01b) |
+| 07-29 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n6ba422d48ec7) |
+| 07-30 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n131f480cedc9) |
+| 07-31 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n92777bc8fab4) |
+| 08-01 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n1d748aed8075) |
