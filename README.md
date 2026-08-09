@@ -103,3 +103,7 @@ A personal repository for studying Japanese conversation.
 | 08-01 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n1d748aed8075) |
 | 08-02 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n766208a5d128) |
 | 08-03 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n141f621edc6a) |
+| 08-04 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n004856cc037f) |
+| 08-05 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n7ebbbb426d30) |
+| 08-06 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n21f877abf407) |
+| 08-07 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n1a1c12adc370) |
