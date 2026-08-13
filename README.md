@@ -110,3 +110,4 @@ A personal repository for studying Japanese conversation.
 | 08-08 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n06ef6dfda611) |
 | 08-09 |                         |                           |                          | [✓](https://note.com/jovid_18/n/ne2ced41bba9b) |
 | 08-10 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n49c1b48b00a7) |
+| 08-11 |                         |                           |                          | [✓](https://note.com/jovid_18/n/n308c7d6d1848) |
